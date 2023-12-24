@@ -1,15 +1,17 @@
 # ShortsNotifier
-A simple program that sends you a desktop notification the minute a youtube shorts video is posted by any of a specific list of channels
+A simple Python program that sends you a desktop notification the minute a youtube shorts video is posted by any of a specific list of channels
 
 ## Setup
 
 1) Get a Youtube Data API 3 key and put it in `API_KEY.txt`
 
-2)  Fill out `channel_ids.csv` so that the first element of each row is the channel ID of a YouTube channel (you can find it by looking at their channel description, pressing "Share channel" and then "Copy channel ID"). You can put the title of the channel after it (separated by a comma) to help remember which ID is which (it will be ignored)
+2) Run `pip install -r requirements.txt`
+
+3)  Fill out `channel_ids.csv` so that the first element of each row is the channel ID of a YouTube channel (you can find it by looking at their channel description, pressing "Share channel" and then "Copy channel ID"). You can put the title of the channel after it (separated by a comma) to help remember which ID is which (it will be ignored)
 
 ![image](https://github.com/GrandTheftWalrus/ShortsNotifier/assets/70998757/b0437884-7375-470b-ba9d-2bc6279eeb1f)
 
-3) Run it with `python ShortsNotifier.py` (it currently runs in a window that you just gotta ignore, unless you can hide the terminal or something)
+4) Run it with `python ShortsNotifier.py` (it currently runs in a window that you just gotta ignore, unless you can hide the terminal or something)
 
 ## Notes/Todo
 
